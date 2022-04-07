@@ -1,0 +1,43 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+char c[]="eve";
+
+int i,k,p=0,l=0;
+
+for(i=0;c[i]!='\0';i++)
+{
+    
+}
+k=i;
+char d[k];
+for(i=k;i>=0;i--)
+{
+    d[p]=c[i];
+p++;
+   
+}
+
+for(i=0;i<k+1;i++){
+    if(c[i]!=d[i])
+    {
+        l=1;
+        break;
+    }
+}
+if(l==0)
+printf("it is palindrome");
+else
+printf("its not palindrome");
+
+return 0;
+}
